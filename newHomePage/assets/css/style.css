@@ -63,8 +63,8 @@ p{
 #top{
     width:100%;
     height:137px;
-  z-index: 2;
-  position: relative;
+  	z-index: 2;
+  	position: relative;
 }
 /*Logo and Text of logo*/
 #logo{
@@ -92,12 +92,14 @@ p{
     box-shadow: inset 0px -1px 6px 0px rgba(255,255,255,0.50);
     border-radius: 15px;
     border:none;
-    padding:5px 30px;
+    padding:5px 0;
+	text-align:center;
 }
 .fa-search{
     right:10px;
     top:5px;
     position:absolute;
+	color:#FFF;
 }
  
 /*Middle section*/
@@ -115,8 +117,8 @@ p{
 #secondMiddle{
     text-align:center;
     width:100%;
-  z-index: 2;
-  position: relative;
+  	z-index: 2;
+ 	position: relative;
 }
 #secondMiddle p{
     margin:0;
